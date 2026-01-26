@@ -40,4 +40,3 @@ O projeto consiste em uma única página HTML (`index.html`) que é estilizada c
 
 - HTML5
 - Tailwind CSS
-- Node.js (para o processo de build do Tailwind CSS)
