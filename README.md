@@ -1,10 +1,10 @@
-# Projeto Curso Tailwind
+# Projeto Final do Curso de Tailwind da DIO
 
 Este é um projeto desenvolvido durante um curso de Tailwind CSS. O objetivo do projeto é criar uma página de portfólio simples e responsiva.
 
 ## Visão Geral
 
-O projeto consiste em uma única página HTML (`index.html`) que é estilizada com Tailwind CSS. A página é um portfólio para um desenvolvedor chamado Hugo Pereira e inclui uma breve biografia e links para suas redes sociais.
+O projeto consiste em uma única página HTML (`index.html`) que é estilizada com Tailwind CSS. A página é um portfólio e inclui uma breve biografia e links para minhas redes sociais.
 
 ## Estrutura do Projeto
 
