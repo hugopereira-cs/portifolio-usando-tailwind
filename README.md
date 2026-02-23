@@ -1,42 +1,67 @@
-# Projeto Final do Curso de Tailwind da DIO
+# Portfólio com Tailwind CSS
 
-Este é um projeto desenvolvido durante um curso de Tailwind CSS. O objetivo do projeto é criar uma página de portfólio simples e responsiva.
+Página de portfólio responsiva desenvolvida com HTML5 e Tailwind CSS. O projeto apresenta um layout moderno com navegação lateral adaptativa e seção de apresentação pessoal.
 
 ## Visão Geral
 
-O projeto consiste em uma única página HTML (`index.html`) que é estilizada com Tailwind CSS. A página é um portfólio e inclui uma breve biografia e links para minhas redes sociais.
+Projeto de portfólio de Hugo Pereira, desenvolvedor Front-end e estudante de Ciência da Computação. A página é totalmente responsiva e adapta-se a diferentes tamanhos de tela, incluindo navegação por ícones em dispositivos móveis.
 
 ## Estrutura do Projeto
 
-- `src/index.html`: O arquivo HTML principal.
-- `src/input.css`: O arquivo CSS de entrada para o Tailwind CSS.
-- `src/output.css`: O arquivo CSS de saída gerado pelo Tailwind CSS.
-- `src/img/`: Contém as imagens usadas no projeto.
-- `src/icons/`: Contém os ícones SVG usados no projeto.
-- `tailwind.config.js`: O arquivo de configuração do Tailwind CSS.
-- `package.json`: O arquivo de manifesto do projeto, que inclui as dependências.
+```
+.
+├── src/
+│   ├── index.html          # Página principal do portfólio
+│   ├── input.css           # Arquivo CSS de entrada (importa Tailwind)
+│   ├── output.css          # Arquivo CSS gerado (compilado pelo Tailwind)
+│   ├── img/                # Imagens do projeto (foto de perfil)
+│   └── icons/              # Ícones SVG (navegação e redes sociais)
+├── tailwind.config.js      # Configuração do Tailwind CSS
+├── package.json            # Dependências e metadados do projeto
+└── README.md               # Este arquivo
+```
 
-## Como Executar o Projeto
+## Recursos
 
-1.  Clone o repositório:
-    ```bash
-    git clone <url-do-repositorio>
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd projeto-curso-tailwind
-    ```
-3.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-4.  Execute o script para compilar o CSS com o Tailwind:
-    ```bash
-    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-    ```
-5.  Abra o arquivo `src/index.html` em seu navegador.
+- ✅ Design responsivo (mobile, tablet, desktop)
+- ✅ Navegação adaptativa (ícones em mobile, menu expandido em desktop)
+- ✅ Seção de apresentação com foto de perfil circular
+- ✅ Links para redes sociais (LinkedIn, GitHub)
+- ✅ Paleta de cores com tons de roxo, amarelo e cinza
+- ✅ Animação de pulso no logo
+
+## Requisitos
+
+- Node.js e npm instalados
+
+## Como Executar
+
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+2. Compile o CSS com Tailwind em modo watch:
+   ```bash
+   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+   ```
+
+3. Abra o arquivo `src/index.html` no navegador:
+   ```bash
+   # Em Linux/macOS
+   xdg-open src/index.html  # ou open src/index.html no macOS
+   
+   # Ou use um servidor local (opcional)
+   npx http-server
+   ```
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- Tailwind CSS
+- **HTML5**: Estrutura e semântica
+- **Tailwind CSS** v4.1.18: Framework CSS utilitário
+- **SVG**: Ícones vetoriais
+
+## Dependências
+
+- `tailwindcss`: ^4.1.18
+- `@tailwindcss/cli`: ^4.1.18
